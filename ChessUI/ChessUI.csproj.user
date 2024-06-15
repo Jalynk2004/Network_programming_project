@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="DashboardForm\Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashboardForm\ChoosePVEMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashboardForm\ChoosePVPMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashboardForm\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="JoinGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashboardForm\MatchHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashboardForm\WaitingRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GameSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SinglePlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SpawnClientAndServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TwoPlayerLAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TwoPlayerOnline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

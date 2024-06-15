@@ -1,0 +1,5 @@
+F:\ChessProject2\ChatServer\bin\Release\net8.0\app.publish\ChatServer.exe
+F:\ChessProject2\ChatServer\bin\Release\net8.0\app.publish\ChatServer.dll
+F:\ChessProject2\ChatServer\bin\Release\net8.0\app.publish\ChatServer.deps.json
+F:\ChessProject2\ChatServer\bin\Release\net8.0\app.publish\ChatServer.runtimeconfig.json
+F:\ChessProject2\ChatServer\bin\Release\net8.0\app.publish\ChatServer.pdb
