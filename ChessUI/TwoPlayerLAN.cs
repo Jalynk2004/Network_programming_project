@@ -332,7 +332,7 @@ namespace ChessUI
                     predictLb.Text = ""; // Clear prediction for white's turn
                 }
                 SendMessage(moveNotation);
-               
+
             }
             catch (Exception exception)
             {
@@ -503,7 +503,7 @@ namespace ChessUI
         private void InitializeChat()
         {
             chatClient = new TcpClient();
-            chatClient.Connect("chessServer-1499465774.ap-southeast-1.elb.amazonaws.com", 9000);
+            chatClient.Connect("13.229.217.215", 9000);
             chatStream = chatClient.GetStream();
             Thread receiveThread = new Thread(ReceiveChatMessages);
             receiveThread.Start();
@@ -531,7 +531,7 @@ namespace ChessUI
         }
         private async Task<string> FetchBestMoveFromAPIAsync(string fen)
         {
-            string apiUrl = "http://54.179.159.97:7000/"; // Update with your actual API URL
+            string apiUrl = "http://13.212.137.16:7000/"; // Update with your actual API URL
 
             try
             {

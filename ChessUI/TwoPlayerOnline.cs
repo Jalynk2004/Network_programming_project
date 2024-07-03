@@ -299,20 +299,20 @@ namespace ChessUI
         private void ConnectToOpponent()
         {
             client = new TcpClient();
-            client.Connect("chessServer-1499465774.ap-southeast-1.elb.amazonaws.com", 8888);
+            client.Connect("18.143.159.150", 8888);
             clientStream = client.GetStream();
             stream = client.GetStream();
             Thread receiveThread = new Thread(ReceiveMessages);
             receiveThread.Start();
 
-            
+
         }
 
         private void SendMessage(string message)
         {
             byte[] messageBytes = Encoding.ASCII.GetBytes(message);
             clientStream.Write(messageBytes, 0, messageBytes.Length);
-           
+
         }
 
         private void ReceiveMessages()
@@ -338,7 +338,7 @@ namespace ChessUI
                     EndGame();
                     return;
                 }
-               
+
 
             }
         }
